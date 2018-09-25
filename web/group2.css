@@ -1,0 +1,28 @@
+#div1 {
+	font-family: Arial;
+	font-size: 14;
+	background-color: #0000A0;
+	color: white;
+	
+}
+#div1:hover {
+	font-weight: bold;
+}
+
+#div2 {
+	font-family: Arial;
+	font-size: 14;
+	background-color: #D3D3D3;
+
+}
+#div2:hover {
+	font-weight: bold;
+}
+#div3 {
+	font-family: Arial;
+	font-size: 14;
+	background-color: #ADD8E6;
+}
+#div3:hover {
+	font-weight: bold;
+}
