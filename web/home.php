@@ -7,7 +7,7 @@
 <body>
 	<header>
 		<ul>
-			<li><a href="home.html">Home</a></li>
+			<li><a href="home.php">Home</a></li>
 			<li><a href="assignments.html">Assignments</a></li>
 		</ul>
 	</header>
@@ -29,7 +29,7 @@
 
 	</main>
 	<footer>
-		<span>@copy</span></script><?php echo "date(Y)" ?>
+		<span>@copy </span></script><?php echo date("Y"); ?>
 	</footer>
 </body>
 </html>
