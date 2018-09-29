@@ -29,7 +29,7 @@
 
 	</main>
 	<footer>
-		<span>@copy </span></script><?php echo date("Y"); ?>
+		<span>&copy </span></script><?php echo date("Y"); ?>
 	</footer>
 </body>
 </html>
