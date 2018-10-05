@@ -80,9 +80,9 @@
 					</select>
 					<input type="button" name="Add3x3" value="Add to cart">
 					<?php
-						if (isset($_POST)['Add3x3'])) {
-						$_SESSION["count3"] = $_POST['cube3'];
-						$_SESSION["cart"] = $_POST['cube3'];
+						if (isset($_POST)["Add3x3"])) {
+						$_SESSION["count3"] = $_POST["cube3"];
+						$_SESSION["cart"] = $_POST["cube3"];
 
 					}
 					?>
@@ -107,9 +107,9 @@
 					</select>
 					<input type="button" name="Add4x4" value="Add to cart">
 					<?php
-						if (isset($_POST)['Add4x4'])) {
-						$_SESSION["count4"] = $_POST['cube4'];
-						$_SESSION["cart"] = $_POST['cube4'];
+						if (isset($_POST)["Add4x4"])) {
+						$_SESSION["count4"] = $_POST["cube4"];
+						$_SESSION["cart"] = $_POST["cube4"];
 					}
 					?>
 				</div>
@@ -132,9 +132,9 @@
 					</select>
 					<input type="button" name="Add5x5" value="Add to cart">
 					<?php
-						if (isset($_POST)['Add5x5'])) {
-						$_SESSION["count5"] = $_POST['cube5'];
-						$_SESSION["cart"] = $_POST['cube5'];
+						if (isset($_POST)["Add5x5"])) {
+						$_SESSION["count5"] = $_POST["cube5"];
+						$_SESSION["cart"] = $_POST["cube5"];
 					}
 					?>
 				</div>
@@ -158,9 +158,9 @@
 					</select>
 					<input type="button" name="Add6x6" value="Add to cart">
 					<?php
-						if (isset($_POST)['Add6x6'])) {
-						$_SESSION["count6"] = $_POST['cube6'];
-						$_SESSION["cart"] = $_POST['cube6'];
+						if (isset($_POST)["Add6x6"])) {
+						$_SESSION["count6"] = $_POST["cube6"];
+						$_SESSION["cart"] = $_POST["cube6"];
 					}
 					?>
 				</div>
@@ -183,9 +183,9 @@
 					</select>
 					<input type="button" name="Add7x7" value="Add to cart">
 					<?php
-						if (isset($_POST)['Add7x7'])) {
-						$_SESSION["count7"] = $_POST['cube7'];
-						$_SESSION["cart"] = $_POST['cube7'];
+						if (isset($_POST)["Add7x7"])) {
+						$_SESSION["count7"] = $_POST["cube7"];
+						$_SESSION["cart"] = $_POST["cube7"];
 					}
 					?>
 				</div>
