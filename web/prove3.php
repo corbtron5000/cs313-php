@@ -8,6 +8,23 @@
 	<title>Puzzle Mania</title>
 </head>
 <body>
+	<?php
+	$_SESSION["p2"] = 7;
+	$_SESSION["p3"] = 9;
+	$_SESSION["p4"] = 13;
+	$_SESSION["p5"] = 16;
+	$_SESSION["p6"] = 19;
+	$_SESSION["p7"] = 22;
+	$_SESSION["count2"] = 0;
+	$_SESSION["count3"] = 0;
+	$_SESSION["count4"] = 0;
+	$_SESSION["count5"] = 0;
+	$_SESSION["count6"] = 0;
+	$_SESSION["count7"] = 0;
+	$_SESSION["cart"] = 0;
+
+	?>
+
 	<header>
 		<h1 id="title">Puzzle Mania</h1>
 		<ul>
