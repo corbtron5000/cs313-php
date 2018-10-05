@@ -83,7 +83,7 @@
 						if (isset($_POST)['Add3x3'])) {
 						$_SESSION["count3"] = $_POST['cube3'];
 						$_SESSION["cart"] = $_POST['cube3'];
-						
+
 					}
 					?>
 				</div>
