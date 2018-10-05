@@ -1,5 +1,5 @@
 <?php
-session_start();
+	session_start();
 ?>
 <!DOCTYPE html>
 <html>
@@ -23,7 +23,7 @@ session_start();
 	$_SESSION["count7"] = 0;
 	$_SESSION["cart"] = 0;
 
-	>
+	?>
 	<header>
 		<h1 id="title">Puzzle Mania</h1>
 		<ul>
@@ -55,9 +55,9 @@ session_start();
 					</select>
 					<input type="button" name="Add2x2" value="Add to cart">
 					<?php
-						if (isset($_POST)['Add2x2'])) {
-						$_SESSION["count2"] = $_POST['cube2'];
-						S_SESSION["cart"] = $_POST['cube2'];
+						if (isset($_POST)["Add2x2"])) {
+						$_SESSION["count2"] = $_POST["cube2"];
+						$_SESSION["cart"] = $_POST["cube2"];
 					}
 					?>
 				</div>
@@ -82,7 +82,7 @@ session_start();
 					<?php
 						if (isset($_POST)['Add3x3'])) {
 						$_SESSION["count3"] = $_POST['cube3'];
-						S_SESSION["cart"] = $_POST['cube3'];
+						$_SESSION["cart"] = $_POST['cube3'];
 					}
 					?>
 				</div>
@@ -108,7 +108,7 @@ session_start();
 					<?php
 						if (isset($_POST)['Add4x4'])) {
 						$_SESSION["count4"] = $_POST['cube4'];
-						S_SESSION["cart"] = $_POST['cube4'];
+						$_SESSION["cart"] = $_POST['cube4'];
 					}
 					?>
 				</div>
@@ -133,7 +133,7 @@ session_start();
 					<?php
 						if (isset($_POST)['Add5x5'])) {
 						$_SESSION["count5"] = $_POST['cube5'];
-						S_SESSION["cart"] = $_POST['cube5'];
+						$_SESSION["cart"] = $_POST['cube5'];
 					}
 					?>
 				</div>
@@ -159,7 +159,7 @@ session_start();
 					<?php
 						if (isset($_POST)['Add6x6'])) {
 						$_SESSION["count6"] = $_POST['cube6'];
-						S_SESSION["cart"] = $_POST['cube6'];
+						$_SESSION["cart"] = $_POST['cube6'];
 					}
 					?>
 				</div>
@@ -184,7 +184,7 @@ session_start();
 					<?php
 						if (isset($_POST)['Add7x7'])) {
 						$_SESSION["count7"] = $_POST['cube7'];
-						S_SESSION["cart"] = $_POST['cube7'];
+						$_SESSION["cart"] = $_POST['cube7'];
 					}
 					?>
 				</div>
