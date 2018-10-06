@@ -55,12 +55,13 @@
 						<option value="9"> 9 </option>
 						<option value="10"> 10 </option>
 					</select>
-					<a href="<?php cubes2()?>">Add to cart</a>
+					<a href="<?=cubes2()?>">Add to cart</a>
 					<?php
 						function cubes2()
 						{
 							$_SESSION["count2"] = $_POST["cube2"];
 							$_SESSION["cart"] = $_POST["cube2"];
+							reutrn "prove3.php"
 						}
 					}
 					?>
