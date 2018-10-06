@@ -43,11 +43,12 @@
 				echo "</div>";
 				echo "</div>";
 
-				if (isset($_POST['remove2'])) {
-					$_SESSION['count2'] -= 1;
-					$_SESSION['cart'] -= 1;
-				}
-
+			}
+		?>
+		<?php 
+			if (isset($_POST['remove2'])) {
+				$_SESSION['count2'] -= 1;
+				$_SESSION['cart'] -= 1;
 			}
 		?>
 	</form>
