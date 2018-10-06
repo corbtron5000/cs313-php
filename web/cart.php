@@ -33,6 +33,7 @@
 				if (isset($_POST['remove2'])) {
 					$_SESSION['count2'] -= 1;
 					$_SESSION['cart'] -= 1;
+					echo "<p> cart is empty </p>";
 					
 				}
 
@@ -48,6 +49,35 @@
 					echo "<label> price: $ $price2.00 </label>";
 					echo "<br>";
 					echo "<input type='submit' name='remove2' value='remove one'>";
+					echo "<a href= 'prove3.php'> Continue shopping </a>";
+					echo "</div>";
+					echo "</div>";
+				}
+
+			}
+
+			if ($_SESSION['count3'] > 0) {
+
+			 
+				if (isset($_POST['remove3'])) {
+					$_SESSION['count3'] -= 1;
+					$_SESSION['cart'] -= 1;
+					echo "<p> cart is empty </p>";
+					
+				}
+
+				if ($_SESSION['count3'] > 0) {
+
+					$q2 = $_SESSION['count3'];
+					$price2 = $_SESSION['p3'] * $q2;
+					echo "<div>";
+					echo "<img src='c3x3.jpg' height='200' width='200'>";
+					echo "<div id='cube3'>";
+					echo "<h3> 3 x 3 Rubik's Cube </h3>";
+					echo "<label> Quantity: $q2 </table?";
+					echo "<label> price: $ $price3.00 </label>";
+					echo "<br>";
+					echo "<input type='submit' name='remove3' value='remove one'>";
 					echo "<a href= 'prove3.php'> Continue shopping </a>";
 					echo "</div>";
 					echo "</div>";
