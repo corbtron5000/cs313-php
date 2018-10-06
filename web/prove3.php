@@ -60,6 +60,7 @@
 						{
 							$carts = (int)$_POST['cube2'];
 							$_SESSION["count2"] = $carts;
+							echo "$carts";
 							$_SESSION["cart"] = $carts;
 							echo "prove3.php";
 						}
