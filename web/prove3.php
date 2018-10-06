@@ -56,7 +56,8 @@
 					<?php
 						function cubes2()
 						{
-							echo "$_SESSION['count2']";
+							$carts = $_SESSION["count2"];
+							echo "$carts";
 							$_SESSION["count2"] += 1;
 							$_SESSION["cart"] += 1;
 							echo "prove3.php";
