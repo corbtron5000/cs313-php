@@ -1,6 +1,5 @@
 <?php
 	session_start();
-	echo "high"
 ?>
 <!DOCTYPE html>
 <html>
@@ -59,7 +58,7 @@
 					<?php
 						function cubes2()
 						{
-							$carts = $_POST['cube2'];
+							$carts = int($_POST['cube2']);
 							$_SESSION["count2"] = $carts;
 							$_SESSION["cart"] = $_POST["cube2"];
 							echo "prove3.php";
