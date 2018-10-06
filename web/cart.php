@@ -29,6 +29,13 @@
 			
 			if ($_SESSION['count2'] > 0) {
 
+			 
+				if (isset($_POST['remove2'])) {
+					$_SESSION['count2'] -= 1;
+					$_SESSION['cart'] -= 1;
+					
+				}
+
 				$q2 = $_SESSION['count2'];
 				$price2 = $_SESSION['p2'] * $q2;
 				echo "<div>";
@@ -43,12 +50,6 @@
 				echo "</div>";
 				echo "</div>";
 
-			}
-		?>
-		<?php 
-			if (isset($_POST['remove2'])) {
-				$_SESSION['count2'] -= 1;
-				$_SESSION['cart'] -= 1;
 			}
 		?>
 	</form>
