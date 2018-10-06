@@ -1,7 +1,7 @@
 <?php
 	session_start();
 
-	if (empty($_SESSION['cart]')) {
+	if (empty($_SESSION['cart'])) {
 	$_SESSION["p2"] = 7;
 	$_SESSION["p3"] = 9;
 	$_SESSION["p4"] = 13;
