@@ -55,12 +55,13 @@
 						<option value="9"> 9 </option>
 						<option value="10"> 10 </option>
 					</select>
-					<input type="submit" name="Add2x2" value="Add to cart">
+					<a href="<?php cubes2()?>">Add to cart</a>
 					<?php
-						if (isset($_POST['Add2x2'])) {
-						$_SESSION["count2"] = $_POST["cube2"];
-						$_SESSION["cart"] = $_POST["cube2"];
-
+						function cubes2()
+						{
+							$_SESSION["count2"] = $_POST["cube2"];
+							$_SESSION["cart"] = $_POST["cube2"];
+						}
 					}
 					?>
 				</div>
