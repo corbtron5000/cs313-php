@@ -38,8 +38,8 @@
 				echo "<label> Quantity: $q2 </table?";
 				echo "<label> price: $ $price2.00 </label>";
 				echo "<br>";
-				echo "<input type='submit' name='Add2x2' value='remove one'>";
-				echo "<input type='submit' name='Add2x2' value='continue shopping";
+				echo "<input type='submit' name='remove' value='remove one'>";
+				echo "<button id='shopping2' value='continue shopping'> continue shopping </button>";
 				echo "</div>";
 				echo "</div>";
 
