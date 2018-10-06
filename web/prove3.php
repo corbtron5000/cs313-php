@@ -37,7 +37,7 @@
 	</header>
 <br><br><br><br><br><br><br><br>
 	<main>
-		<form method="post" action="">
+		<form method="post" action="<?php echo($_SERVER['PHP_SELF']); ?>>
 			<div class="div1">
 				<img src="c2x2.jpg" height="200" width="200">
 				<div class="div2">
@@ -55,7 +55,7 @@
 						<option value="9"> 9 </option>
 						<option value="10"> 10 </option>
 					</select>
-					<input type="submit" name="Add2x2" value="Add to cart">
+					<input type="button" name="Add2x2" value="Add to cart">
 					<?php
 						if (isset($_POST['Add2x2'])) {
 						$_SESSION["count2"] = $_POST["cube2"];
