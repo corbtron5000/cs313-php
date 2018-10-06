@@ -33,9 +33,14 @@
 				$price2 = $_SESSION['p2'] * $q2;
 				echo "<div>";
 				echo "<img src='c2x2.jpg' height='200' width='200'>";
-				echo "<label> Quanity: $q2 </table?";
-				echo "<label> prices: $price2 </label>";
-				echo "<input type='submit' name='Add2x2' value='Add to cart'>";
+				echo "<div id='cube2>";
+				echo "<h3> 2 x 2 Rubik's Cube </h3>";
+				echo "<label> Quantity: $q2 </table?";
+				echo "<label> price: $ $price2.00 </label>";
+				echo "<br>";
+				echo "<input type='submit' name='Add2x2' value='remove one'>";
+				echo "<input type='submit' name='Add2x2' value='continue shopping";
+				echo "</div>";
 				echo "</div>";
 
 			}
