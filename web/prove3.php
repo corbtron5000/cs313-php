@@ -43,25 +43,24 @@
 					<h3>2 x 2 Rubik's Cube</h3">
 					<p>Price: $7.00</p>
 					<select name="cube2">
-						<option value="1"> 1 </option>
-						<option value="2"> 2 </option>
-						<option value="3"> 3 </option>
-						<option value="4"> 4 </option>
-						<option value="5"> 5 </option>
-						<option value="6"> 6 </option>
-						<option value="7"> 7 </option>
-						<option value="8"> 8 </option>
-						<option value="9"> 9 </option>
-						<option value="10"> 10 </option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
 					</select>
 					<a href='<?php cubes2()?>' >Add to cart</a>
 					<?php
 						function cubes2()
 						{
 							$carts = $_POST['cube2'];
-							echo "$carts";
-							$_SESSION["count2"] = $carts;
-							$_SESSION["cart"] = $carts;
+							$_SESSION["count2"] += 1;
+							$_SESSION["cart"] = 1;
 							echo "prove3.php";
 						}
 					?>
