@@ -17,5 +17,13 @@
 			<li><a href="assignments.html">Assignments</a></li>
 		</ul>
 	</header>
+
+	<main>
+		<form>
+			<h3>Address</h3>
+			<input type="text" name="addres" placeholder="enter address">
+			<input type="submit" name="submit" value="place order">
+		</form>
+	</main>
 </body>
 </html>

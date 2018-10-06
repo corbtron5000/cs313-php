@@ -27,6 +27,7 @@
 		}
 		else {
 			echo "<p> I am not empty </p>";
+			print_r($_SESSION);
 		}
 	?>
 </main>
