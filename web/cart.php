@@ -38,10 +38,15 @@
 				echo "<label> Quantity: $q2 </table?";
 				echo "<label> price: $ $price2.00 </label>";
 				echo "<br>";
-				echo "<input type='submit' name='remove' value='remove one'>";
+				echo "<input type='submit' name='remove2' value='remove one'>";
 				echo "<a href= 'prove3.php'> Continue shopping </a>";
 				echo "</div>";
 				echo "</div>";
+
+				if (isset($_POST['remove2'])) {
+					$_SESSION['count2'] -= 1;
+					$_SESSION['cart'] -1;
+				}
 
 			}
 		?>
