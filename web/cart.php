@@ -22,7 +22,7 @@
 	<h1 id="shopping">Shopping Cart</h1>
 
 	<?php
-		if ($_SESSION["cart"] == 0) {
+		if ($_SESSION["cart"] == "0") {
 			echo "<p> cart is empty </p>";
 		}
 		else {
