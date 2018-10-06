@@ -1,14 +1,6 @@
 <?php
 	session_start();
-?>
-<!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="prove3.css">
-	<title>Puzzle Mania</title>
-</head>
-<body>
-	<?php
+
 	$_SESSION["p2"] = 7;
 	$_SESSION["p3"] = 9;
 	$_SESSION["p4"] = 13;
@@ -23,8 +15,14 @@
 	$_SESSION["count7"] = 0;
 	$_SESSION["cart"] = 0;
 
-	?>
-
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="prove3.css">
+	<title>Puzzle Mania</title>
+</head>
+<body>
 	<header>
 		<h1 id="title">Puzzle Mania</h1>
 		<ul>
@@ -54,13 +52,13 @@
 						<option value="9">9</option>
 						<option value="10">10</option>
 					</select>
-					<a href='<?php cubes2()?>' >Add to cart</a>
+					<a href="<?php cubes2()?>" onclick="return false;" >Add to cart</a>
 					<?php
 						function cubes2()
 						{
-							$carts = $_POST['cube2'];
+							
 							$_SESSION["count2"] += 1;
-							$_SESSION["cart"] = 1;
+							$_SESSION["cart"] += 1;
 							echo "prove3.php";
 						}
 					?>
