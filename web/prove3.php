@@ -61,7 +61,7 @@
 						{
 							$_SESSION["count2"] = $_POST["cube2"];
 							$_SESSION["cart"] = $_POST["cube2"];
-							echo "I am herererererererererererererererere";
+							echo "prove3.php"
 						}
 					?>
 				</div>
