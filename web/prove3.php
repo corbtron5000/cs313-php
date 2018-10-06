@@ -56,7 +56,6 @@
 					<?php
 						if (isset($_POST['Add2x2']))
 						{
-							$carts = $_SESSION["count2"];
 							$_SESSION["count2"] += 1;
 							$_SESSION["cart"] += 1;
 						}
@@ -83,7 +82,7 @@
 					<?php
 						if (isset($_POST["Add3x3"])) {
 						$_SESSION["count3"] += 1;
-						$_SESSION["cart"] += 1
+						$_SESSION["cart"] += 1;
 					}
 					?>
 				</div>
