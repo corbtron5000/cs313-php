@@ -58,8 +58,8 @@
 					<?php
 						function cubes2()
 						{
-							$carts = int($_POST['cube2']);
-							$_SESSION["count2"] = $carts;
+							$carts = $_POST['cube2'];
+							$_SESSION["count2"] = int($carts);
 							$_SESSION["cart"] = $_POST["cube2"];
 							echo "prove3.php";
 						}
