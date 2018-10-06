@@ -42,7 +42,7 @@
 				<div class="div2">
 					<h3>2 x 2 Rubik's Cube</h3">
 					<p>Price: $7.00</p>
-					<select name="cube2[]">
+					<select name="cube2">
 						<option value="1"> 1 </option>
 						<option value="2"> 2 </option>
 						<option value="3"> 3 </option>
@@ -59,8 +59,8 @@
 						function cubes2()
 						{
 							$carts = (int)$_POST['cube2'];
+							echo "$_POST['cube2']";
 							$_SESSION["count2"] = $carts;
-							echo "$carts";
 							$_SESSION["cart"] = $carts;
 							echo "prove3.php";
 						}
@@ -193,6 +193,7 @@
 					}
 					?>
 				</div>
+
 			</div>
 		</form>
 
