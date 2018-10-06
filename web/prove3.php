@@ -59,6 +59,8 @@
 						if (isset($_POST["Add2x2"])) {
 						$_SESSION["count2"] = $_POST["cube2"];
 						$_SESSION["cart"] = $_POST["cube2"];
+
+						echo "alert('here i am')";
 					}
 					?>
 				</div>
