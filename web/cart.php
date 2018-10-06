@@ -39,7 +39,7 @@
 				echo "<label> price: $ $price2.00 </label>";
 				echo "<br>";
 				echo "<input type='submit' name='remove' value='remove one'>";
-				echo "<a href= 'prove3.php'> <button id='shopping2' value='continue shopping'> continue shopping </button> </a>";
+				echo "<a href= 'prove3.php'> Continue shopping </a>";
 				echo "</div>";
 				echo "</div>";
 
