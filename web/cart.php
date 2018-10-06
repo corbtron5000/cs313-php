@@ -18,5 +18,18 @@
 		</ul>
 	</header>
 <br><br><br><br><br><br><br><br>
+<main>
+	<h1 id="shopping">Shopping Cart</h1>
+
+	<?php
+		if ($_SESSION["cart"] == 0) {
+			echo "<p> cart is empty </p>"
+		}
+		else {
+			echo "<p> I am not empty </p>"
+		}
+	?>
+</main>
+
 </body>
 </html>
