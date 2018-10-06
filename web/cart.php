@@ -23,10 +23,10 @@
 
 	<?php
 		if ($_SESSION["cart"] == 0) {
-			echo "<p> cart is empty </p>"
+			echo "<p> cart is empty </p>";
 		}
 		else {
-			echo "<p> I am not empty </p>"
+			echo "<p> I am not empty </p>";
 		}
 	?>
 </main>
