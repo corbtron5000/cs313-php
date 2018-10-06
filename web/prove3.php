@@ -1,6 +1,7 @@
 <?php
 	session_start();
 
+	if (empty($_SESSION['cart]')) {
 	$_SESSION["p2"] = 7;
 	$_SESSION["p3"] = 9;
 	$_SESSION["p4"] = 13;
@@ -14,6 +15,7 @@
 	$_SESSION["count6"] = 0;
 	$_SESSION["count7"] = 0;
 	$_SESSION["cart"] = 0;
+}
 
 ?>
 <!DOCTYPE html>
