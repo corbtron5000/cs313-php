@@ -36,7 +36,7 @@
 	</header>
 <br><br><br><br><br><br><br><br>
 	<main>
-		<form>
+		<form method="post" action="">
 			<div class="div1">
 				<img src="c2x2.jpg" height="200" width="200">
 				<div class="div2">
@@ -60,7 +60,7 @@
 						$_SESSION["count2"] = $_POST["cube2"];
 						$_SESSION["cart"] = $_POST["cube2"];
 
-						echo "alert('here i am')";
+						echo "I am here";
 					}
 					?>
 				</div>
