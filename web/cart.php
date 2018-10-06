@@ -21,7 +21,7 @@
 <main>
 	<h1 id="shopping">Shopping Cart</h1>
 
-	<form>
+	<form method="post" action="<?php echo($_SERVER['PHP_SELF']); ?>" >
 		<?php
 			if ($_SESSION["cart"] == 0) {
 				echo "<p> cart is empty </p>";
@@ -45,7 +45,7 @@
 
 				if (isset($_POST['remove2'])) {
 					$_SESSION['count2'] -= 1;
-					$_SESSION['cart'] -1;
+					$_SESSION['cart'] -= 1;
 				}
 
 			}

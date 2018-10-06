@@ -38,7 +38,7 @@
 			<div class="div1">
 				<img src="c2x2.jpg" height="200" width="200">
 				<div class="div2">
-					<h3>2 x 2 Rubik's Cube</h3">
+					<h3>2 x 2 Rubik's Cube</h3>
 					<p>Price: $7.00</p>
 					<select name="cube2">
 						<option value="1">1</option>
