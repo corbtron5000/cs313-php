@@ -39,7 +39,7 @@
 				echo "<label> price: $ $price2.00 </label>";
 				echo "<br>";
 				echo "<input type='submit' name='remove' value='remove one'>";
-				echo "<button id='shopping2' value='continue shopping' onclick='https://cryptic-reaches-89767.herokuapp.com/prove3.php'> continue shopping </button>";
+				echo "<button id='shopping2' value='continue shopping' onclick=location.href='https://cryptic-reaches-89767.herokuapp.com/prove3.php'> continue shopping </button>";
 				echo "</div>";
 				echo "</div>";
 
