@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="prove3.css">
+	<link rel="stylesheet" type="text/css" href="checkout.css">
 	<title>Checkout</title>
 </head>
 <body>

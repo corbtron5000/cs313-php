@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="prove3.css">
+	<link rel="stylesheet" type="text/css" href="cart.css">
 	<title>Shopping Cart</title>
 </head>
 <body>
@@ -54,7 +54,7 @@
 					echo "<a href= 'prove3.php'> Continue shopping </a>";
 					echo "</div>";
 					echo "</div>";
-				}
+				} 
 
 			}
 
