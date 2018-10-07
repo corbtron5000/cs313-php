@@ -34,8 +34,8 @@
 
 				if ($_SESSION['count2'] > 0) {
 
-					echo "<div>";
 					$q2 = $_SESSION['count2'];
+					echo "<div>";
 					echo "<img src='c2x2.jpg' height='200' width='200'>";
 					echo "<div id='cube2'>";
 					echo "<h3> 2 x 2 Rubik's Cube </h3>";
@@ -45,8 +45,8 @@
 				}
 				if ($_SESSION['count3'] > 0) {
 					
-					echo "<div>";
 					$q3 = $_SESSION['count3'];
+					echo "<div>";
 					echo "<img src='c3x3.jpg' height='200' width='200'>";
 					echo "<div id='cube3'>";
 					echo "<h3> 3 x 3 Rubik's Cube </h3>";
@@ -67,8 +67,8 @@
 				}
 				if ($_SESSION['count5'] > 0) {
 					
-					echo "<div>";
 					$q5 = $_SESSION['count5'];
+					echo "<div>";
 					echo "<img src='c5x5.jpg' height='200' width='200'>";
 					echo "<div id='cube5'>";
 					echo "<h3> 5 x 5 Rubik's Cube </h3>";
@@ -78,8 +78,8 @@
 				}
 				if ($_SESSION['count6'] > 0) {
 					
-					echo "<div>";
 					$q6 = $_SESSION['count6'];
+					echo "<div>";
 					echo "<img src='c6x6.jpg' height='200' width='200'>";
 					echo "<div id='cube6'>";
 					echo "<h3> 6 x 6 Rubik's Cube </h3>";
@@ -89,8 +89,8 @@
 				}
 				if ($_SESSION['count7'] > 0) {
 					
-					echo "<div>";
 					$q7 = $_SESSION['count7'];
+					echo "<div>";
 					echo "<img src='c7x7.jpg' height='200' width='200'>";
 					echo "<div id='cube7'>";
 					echo "<h3> 7 x 7 Rubik's Cube </h3>";

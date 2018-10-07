@@ -36,3 +36,8 @@ a:hover {
 #title {
   padding-left: 20px;
 }
+
+div {
+  display: inline-block;
+  vertical-align: top;
+}
