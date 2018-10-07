@@ -37,6 +37,7 @@
 					echo "<div id='cube2'>";
 					echo "<h3> 2 x 2 Rubik's Cube </h3>";
 					echo "<label> Quantity: $q2 </table?";
+					echo "</div>";
 				}
 				if ($_SESSION['count3'] > 0) {
 					
@@ -45,6 +46,7 @@
 					echo "<div id='cube3'>";
 					echo "<h3> 3 x 3 Rubik's Cube </h3>";
 					echo "<label> Quantity: $q3 </table?";
+					echo "</div>";
 				}
 				if ($_SESSION['count4'] > 0) {
 					
@@ -53,6 +55,7 @@
 					echo "<div id='cube4'>";
 					echo "<h3> 4 x 4 Rubik's Cube </h3>";
 					echo "<label> Quantity: $q4 </table?";
+					echo "</div>";
 				}
 				if ($_SESSION['count5'] > 0) {
 					
@@ -61,6 +64,7 @@
 					echo "<div id='cube5'>";
 					echo "<h3> 5 x 5 Rubik's Cube </h3>";
 					echo "<label> Quantity: $q5 </table?";
+					echo "</div>";
 				}
 				if ($_SESSION['count6'] > 0) {
 					
@@ -69,6 +73,7 @@
 					echo "<div id='cube6'>";
 					echo "<h3> 6 x 6 Rubik's Cube </h3>";
 					echo "<label> Quantity: $q6 </table?";
+					echo "</div>";
 				}
 				if ($_SESSION['count7'] > 0) {
 					
@@ -77,6 +82,7 @@
 					echo "<div id='cube7'>";
 					echo "<h3> 7 x 7 Rubik's Cube </h3>";
 					echo "<label> Quantity: $q7 </table?";
+					echo "</div>";
 				}
 			?>
 		</main>
