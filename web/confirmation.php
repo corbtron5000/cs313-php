@@ -4,10 +4,12 @@
 	$street = $_POST['address'];
 	$zip = $_POST['zip'];
 	$state = $_POST['state'];
+	$city = $_POST['city'];
 
 	$_SESSION['street'] = $street;
 	$_SESSION['zips'] = $zip;
 	$_SESSION['states'] = $state;
+	$_SESSION['cities'] = $city;
 ?>
 <!DOCTYPE html>
 <html>
@@ -84,6 +86,13 @@
 					echo "<label> Quantity: $q7 </table?";
 					echo "</div>";
 				}
+
+				$street = $_SESSION['street'];
+				$zip = $_SESSION['zips'];
+				$state = $_SESSION['states'];
+				$city = $_SESSION['cities'];
+
+				echo "<label>your oder is being shipped to: $street $city, $state $zip </label>";
 			?>
 		</main>
 	</body>

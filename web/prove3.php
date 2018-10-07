@@ -18,6 +18,7 @@
 		$_SESSION["street"] = "";
 		$_SESSION["zips"] = "";
 		$_SESSION["states"] = "";
+		$_SESSION['cities'] = "";
 	}
 ?>
 <!DOCTYPE html>
