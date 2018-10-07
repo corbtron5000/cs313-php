@@ -41,3 +41,7 @@ div {
   display: inline-block;
   vertical-align: top;
 }
+
+#total {
+  align-content: left;
+}
