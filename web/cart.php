@@ -33,7 +33,7 @@
 				if (isset($_POST['remove2'])) {
 					$_SESSION['count2'] -= 1;
 					$_SESSION['cart'] -= 1;
-					//$_SESSION['total'] -= 7;
+					$_SESSION['total'] -= 7;
 					echo "<p> cart is empty </p>";
 					
 				}
@@ -42,7 +42,7 @@
 
 					$q2 = $_SESSION['count2'];
 					$price2 = $_SESSION['p2'] * $q2;
-					//$_SESSION['total'] += $price2;
+					$_SESSION['total'] += $price2;
 					echo "<div>";
 					echo "<img src='c2x2.jpg' height='200' width='200'>";
 					echo "<div id='cube2'>";
