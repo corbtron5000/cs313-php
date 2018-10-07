@@ -26,6 +26,7 @@
 			<label>Zip Code</label><input type="text" name="zip" placeholder="11111"><br>
 			<label>State</label><input type="text" name="state" placeholder="CA"><br>
 			<input type="submit" name="submit" value="place order">
+			<a href="cart.php">Return to cart</a>
 		</form>
 	</main>
 </body>
