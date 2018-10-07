@@ -33,6 +33,7 @@
 				if (isset($_POST['remove2'])) {
 					$_SESSION['count2'] -= 1;
 					$_SESSION['cart'] -= 1;
+					$_SESSION['total'] -= 7;
 					echo "<p> cart is empty </p>";
 					
 				}
@@ -41,6 +42,7 @@
 
 					$q2 = $_SESSION['count2'];
 					$price2 = $_SESSION['p2'] * $q2;
+					$_SESSION['total'] += $price2;
 					echo "<div>";
 					echo "<img src='c2x2.jpg' height='200' width='200'>";
 					echo "<div id='cube2'>";
@@ -62,6 +64,7 @@
 				if (isset($_POST['remove3'])) {
 					$_SESSION['count3'] -= 1;
 					$_SESSION['cart'] -= 1;
+					$_SESSION['total'] -= 9;
 					echo "<p> cart is empty </p>";
 					
 				}
@@ -70,6 +73,7 @@
 
 					$q3 = $_SESSION['count3'];
 					$price3 = $_SESSION['p3'] * $q3;
+					$_SESSION['total'] += $price3;
 					echo "<div>";
 					echo "<img src='c3x3.jpg' height='200' width='200'>";
 					echo "<div id='cube3'>";
@@ -91,6 +95,7 @@
 				if (isset($_POST['remove4'])) {
 					$_SESSION['count4'] -= 1;
 					$_SESSION['cart'] -= 1;
+					$_SESSION['total'] -= 13;
 					echo "<p> cart is empty </p>";
 					
 				}
@@ -99,6 +104,7 @@
 
 					$q4 = $_SESSION['count4'];
 					$price4 = $_SESSION['p4'] * $q4;
+					$_SESSION['total'] += $price4;
 					echo "<div>";
 					echo "<img src='c4x4.jpg' height='200' width='200'>";
 					echo "<div id='cube4'>";
@@ -120,6 +126,7 @@
 				if (isset($_POST['remove5'])) {
 					$_SESSION['count5'] -= 1;
 					$_SESSION['cart'] -= 1;
+					$_SESSION['total'] -= 16;
 					echo "<p> cart is empty </p>";
 					
 				}
@@ -128,6 +135,7 @@
 
 					$q5 = $_SESSION['count5'];
 					$price5 = $_SESSION['p5'] * $q5;
+					$_SESSION['total'] += $price5;
 					echo "<div>";
 					echo "<img src='c5x5.jpg' height='200' width='200'>";
 					echo "<div id='cube5'>";
@@ -149,6 +157,7 @@
 				if (isset($_POST['remove6'])) {
 					$_SESSION['count6'] -= 1;
 					$_SESSION['cart'] -= 1;
+					$_SESSION['total'] -= 19;
 					echo "<p> cart is empty </p>";
 					
 				}
@@ -157,6 +166,7 @@
 
 					$q6 = $_SESSION['count6'];
 					$price6 = $_SESSION['p6'] * $q6;
+					$_SESSION['total'] += $price6;
 					echo "<div>";
 					echo "<img src='c6x6.jpg' height='200' width='200'>";
 					echo "<div id='cube6'>";
@@ -178,6 +188,7 @@
 				if (isset($_POST['remove7'])) {
 					$_SESSION['count7'] -= 1;
 					$_SESSION['cart'] -= 1;
+					$_SESSION['total'] -= 22;
 					echo "<p> cart is empty </p>";
 					
 				}
@@ -186,6 +197,7 @@
 
 					$q7 = $_SESSION['count7'];
 					$price7 = $_SESSION['p7'] * $q7;
+					$_SESSION['total'] += $price7;
 					echo "<div>";
 					echo "<img src='c7x7.jpg' height='200' width='200'>";
 					echo "<div id='cube7'>";
@@ -201,6 +213,8 @@
 
 			}
 		?>
+		<p>Total: <?php $total = $_SESSION['total'] echo "$ $total.00"?></p>
+		<a href="checkout.php"> Continue to checkout</a>
 	</form>
 </main>
 

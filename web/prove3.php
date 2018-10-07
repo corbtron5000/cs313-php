@@ -14,6 +14,7 @@
 		$_SESSION["count6"] = 0;
 		$_SESSION["count7"] = 0;
 		$_SESSION["cart"] = 0;
+		$_SESSION["total"] = 0;
 	}
 ?>
 <!DOCTYPE html>
