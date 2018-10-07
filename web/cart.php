@@ -95,7 +95,7 @@
 				if (isset($_POST['remove4'])) {
 					$_SESSION['count4'] -= 1;
 					$_SESSION['cart'] -= 1;
-					//$_SESSION['total'] -= 13;
+					$_SESSION['total'] -= 13;
 					echo "<p> cart is empty </p>";
 					
 				}
@@ -104,7 +104,7 @@
 
 					$q4 = $_SESSION['count4'];
 					$price4 = $_SESSION['p4'] * $q4;
-					//$_SESSION['total'] += $price4;
+					$_SESSION['total'] += $price4;
 					echo "<div>";
 					echo "<img src='c4x4.jpg' height='200' width='200'>";
 					echo "<div id='cube4'>";
