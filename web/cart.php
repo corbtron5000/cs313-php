@@ -27,6 +27,29 @@
 				echo "<p> cart is empty </p>";
 			}
 			
+			if ($_SESSION['cart'] != 0)
+				{
+					$q2 = $_SESSION['count2'];
+					$price2 = $_SESSION['p2'] * $q2;
+					$_SESSION['total'] += $price2;
+					$q3 = $_SESSION['count3'];
+					$price3 = $_SESSION['p3'] * $q3;
+					$_SESSION['total'] += $price3;
+					$q4 = $_SESSION['count4'];
+					$price4 = $_SESSION['p4'] * $q4;
+					$_SESSION['total'] += $price4;
+					$q5 = $_SESSION['count5'];
+					$price5 = $_SESSION['p5'] * $q5;
+					$_SESSION['total'] += $price5;
+					$q6 = $_SESSION['count6'];
+					$price6 = $_SESSION['p6'] * $q6;
+					$_SESSION['total'] += $price6;
+					$q7 = $_SESSION['count7'];
+					$price7 = $_SESSION['p7'] * $q7;
+					$_SESSION['total'] += $price7;
+				}
+
+
 			if ($_SESSION['count2'] > 0) {
 
 			 
@@ -193,27 +216,6 @@
 					echo "</div>";
 				}
 
-				if ($_SESSION['cart'] != 0)
-				{
-					$q2 = $_SESSION['count2'];
-					$price2 = $_SESSION['p2'] * $q2;
-					$_SESSION['total'] += $price2;
-					$q3 = $_SESSION['count3'];
-					$price3 = $_SESSION['p3'] * $q3;
-					$_SESSION['total'] += $price3;
-					$q4 = $_SESSION['count4'];
-					$price4 = $_SESSION['p4'] * $q4;
-					$_SESSION['total'] += $price4;
-					$q5 = $_SESSION['count5'];
-					$price5 = $_SESSION['p5'] * $q5;
-					$_SESSION['total'] += $price5;
-					$q6 = $_SESSION['count6'];
-					$price6 = $_SESSION['p6'] * $q6;
-					$_SESSION['total'] += $price6;
-					$q7 = $_SESSION['count7'];
-					$price7 = $_SESSION['p7'] * $q7;
-					$_SESSION['total'] += $price7;
-				}
 
 			}
 		?>
