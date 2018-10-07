@@ -23,6 +23,8 @@
 
 	<form method="post" action="<?php echo($_SERVER['PHP_SELF']); ?>" >
 		<?php
+			$_SESSION['total'] = 0;
+
 			if ($_SESSION["cart"] == 0) {
 				echo "<p> cart is empty </p>";
 			}
