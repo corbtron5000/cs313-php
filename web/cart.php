@@ -35,7 +35,6 @@
 					$_SESSION['count2'] -= 1;
 					$_SESSION['cart'] -= 1;
 					$_SESSION['total'] -= 7;
-					echo "<p> cart is empty </p>";
 					
 				}
 
@@ -70,7 +69,6 @@
 					$_SESSION['count3'] -= 1;
 					$_SESSION['cart'] -= 1;
 					$_SESSION['total'] -= 9;
-					echo "<p> cart is empty </p>";
 					
 				}
 
@@ -104,7 +102,6 @@
 					$_SESSION['count4'] -= 1;
 					$_SESSION['cart'] -= 1;
 					$_SESSION['total'] -= 13;
-					echo "<p> cart is empty </p>";
 					
 				}
 
@@ -138,7 +135,6 @@
 					$_SESSION['count5'] -= 1;
 					$_SESSION['cart'] -= 1;
 					$_SESSION['total'] -= 16;
-					echo "<p> cart is empty </p>";
 					
 				}
 
@@ -172,7 +168,6 @@
 					$_SESSION['count6'] -= 1;
 					$_SESSION['cart'] -= 1;
 					$_SESSION['total'] -= 19;
-					echo "<p> cart is empty </p>";
 					
 				}
 
@@ -206,7 +201,6 @@
 					$_SESSION['count7'] -= 1;
 					$_SESSION['cart'] -= 1;
 					$_SESSION['total'] -= 22;
-					echo "<p> cart is empty </p>";
 					
 				}
 
