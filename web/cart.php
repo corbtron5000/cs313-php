@@ -213,7 +213,7 @@
 
 			}
 		?>
-		<p>Total: <?php $total = $_SESSION['total'] echo "$ $total.00" ?></p>
+		<p>Total: </p>
 		<a href="checkout.php"> Continue to checkout</a>
 	</form>
 </main>
