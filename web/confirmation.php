@@ -104,7 +104,7 @@
 				$state = $_SESSION['states'];
 				$city = $_SESSION['cities'];
 
-				echo "<br><brl><label>your order is being shipped to: $street $city, $state $zip </label>";
+				echo "<br><br><label>your order is being shipped to: $street $city, $state $zip </label>";
 			?>
 		</main>
 	</body>
