@@ -42,61 +42,62 @@
 					echo "<label> Quantity: $q2 </table?";
 					echo "</div>";
 					echo "</div>";
+					
 				}
 				if ($_SESSION['count3'] > 0) {
 					
 					$q3 = $_SESSION['count3'];
-					echo "<div>";
+					
 					echo "<img src='c3x3.jpg' height='200' width='200'>";
 					echo "<div id='cube3'>";
 					echo "<h3> 3 x 3 Rubik's Cube </h3>";
 					echo "<label> Quantity: $q3 </table?";
 					echo "</div>";
-					echo "</div>";
+					
 				}
 				if ($_SESSION['count4'] > 0) {
 					
 					$q4 = $_SESSION['count4'];
-					echo "<div>";
+					
 					echo "<img src='c4x4.jpg' height='200' width='200'>";
 					echo "<div id='cube4'>";
 					echo "<h3> 4 x 4 Rubik's Cube </h3>";
 					echo "<label> Quantity: $q4 </table?";
 					echo "</div>";
-					echo "</div>";
+					
 				}
 				if ($_SESSION['count5'] > 0) {
 					
 					$q5 = $_SESSION['count5'];
-					echo "<div>";
+					
 					echo "<img src='c5x5.jpg' height='200' width='200'>";
 					echo "<div id='cube5'>";
 					echo "<h3> 5 x 5 Rubik's Cube </h3>";
 					echo "<label> Quantity: $q5 </table?";
 					echo "</div>";
-					echo "</div>";
+					
 				}
 				if ($_SESSION['count6'] > 0) {
 					
 					$q6 = $_SESSION['count6'];
-					echo "<div>";
+					
 					echo "<img src='c6x6.jpg' height='200' width='200'>";
 					echo "<div id='cube6'>";
 					echo "<h3> 6 x 6 Rubik's Cube </h3>";
 					echo "<label> Quantity: $q6 </table?";
 					echo "</div>";
-					echo "</div>";
+					
 				}
 				if ($_SESSION['count7'] > 0) {
 					
 					$q7 = $_SESSION['count7'];
-					echo "<div>";
+					
 					echo "<img src='c7x7.jpg' height='200' width='200'>";
 					echo "<div id='cube7'>";
 					echo "<h3> 7 x 7 Rubik's Cube </h3>";
 					echo "<label> Quantity: $q7 </table?";
 					echo "</div>";
-					echo "</div>";
+					
 				}
 
 				$street = $_SESSION['street'];
