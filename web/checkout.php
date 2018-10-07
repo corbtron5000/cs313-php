@@ -20,9 +20,12 @@
 
 	<main>
 		<br><br><br><br><br><br><br><br>
-		<form>
+		<h1>Checkout</h1>
+		<form method="POST", action="confirmation.php">
 			<h3>Address</h3>
-			<input type="text" name="addres" placeholder="enter address">
+			<input type="text" name="addres" placeholder="123 Main St.">
+			<input type="text" name="zip" placeholder="11111">
+			<input type="text" name="state" placeholder="CA">
 			<input type="submit" name="submit" value="place order">
 		</form>
 	</main>
