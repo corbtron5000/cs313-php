@@ -40,9 +40,6 @@
 
 				if ($_SESSION['count2'] > 0) {
 
-					$q2 = $_SESSION['count2'];
-					$price2 = $_SESSION['p2'] * $q2;
-					$_SESSION['total'] += $price2;
 					echo "<div>";
 					echo "<img src='c2x2.jpg' height='200' width='200'>";
 					echo "<div id='cube2'>";
@@ -71,9 +68,6 @@
 
 				if ($_SESSION['count3'] > 0) {
 
-					$q3 = $_SESSION['count3'];
-					$price3 = $_SESSION['p3'] * $q3;
-					$_SESSION['total'] += $price3;
 					echo "<div>";
 					echo "<img src='c3x3.jpg' height='200' width='200'>";
 					echo "<div id='cube3'>";
@@ -102,9 +96,6 @@
 
 				if ($_SESSION['count4'] > 0) {
 
-					$q4 = $_SESSION['count4'];
-					$price4 = $_SESSION['p4'] * $q4;
-					$_SESSION['total'] += $price4;
 					echo "<div>";
 					echo "<img src='c4x4.jpg' height='200' width='200'>";
 					echo "<div id='cube4'>";
@@ -133,9 +124,6 @@
 
 				if ($_SESSION['count5'] > 0) {
 
-					$q5 = $_SESSION['count5'];
-					$price5 = $_SESSION['p5'] * $q5;
-					$_SESSION['total'] += $price5;
 					echo "<div>";
 					echo "<img src='c5x5.jpg' height='200' width='200'>";
 					echo "<div id='cube5'>";
@@ -164,9 +152,6 @@
 
 				if ($_SESSION['count6'] > 0) {
 
-					$q6 = $_SESSION['count6'];
-					$price6 = $_SESSION['p6'] * $q6;
-					$_SESSION['total'] += $price6;
 					echo "<div>";
 					echo "<img src='c6x6.jpg' height='200' width='200'>";
 					echo "<div id='cube6'>";
@@ -195,9 +180,6 @@
 
 				if ($_SESSION['count7'] > 0) {
 
-					$q7 = $_SESSION['count7'];
-					$price7 = $_SESSION['p7'] * $q7;
-					$_SESSION['total'] += $price7;
 					echo "<div>";
 					echo "<img src='c7x7.jpg' height='200' width='200'>";
 					echo "<div id='cube7'>";
@@ -209,6 +191,28 @@
 					echo "<a href= 'prove3.php'> Continue shopping </a>";
 					echo "</div>";
 					echo "</div>";
+				}
+
+				if ($_SESSION['cart'] != 0)
+				{
+					$q2 = $_SESSION['count2'];
+					$price2 = $_SESSION['p2'] * $q2;
+					$_SESSION['total'] += $price2;
+					$q3 = $_SESSION['count3'];
+					$price3 = $_SESSION['p3'] * $q3;
+					$_SESSION['total'] += $price3;
+					$q4 = $_SESSION['count4'];
+					$price4 = $_SESSION['p4'] * $q4;
+					$_SESSION['total'] += $price4;
+					$q5 = $_SESSION['count5'];
+					$price5 = $_SESSION['p5'] * $q5;
+					$_SESSION['total'] += $price5;
+					$q6 = $_SESSION['count6'];
+					$price6 = $_SESSION['p6'] * $q6;
+					$_SESSION['total'] += $price6;
+					$q7 = $_SESSION['count7'];
+					$price7 = $_SESSION['p7'] * $q7;
+					$_SESSION['total'] += $price7;
 				}
 
 			}
