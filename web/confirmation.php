@@ -40,8 +40,8 @@
 					echo "<div id='cube2'>";
 					echo "<h3> 2 x 2 Rubik's Cube </h3>";
 					echo "<label> Quantity: $q2 </table?";
-					echo "</div>";
-					echo "</div>";
+					echo "</div></div>";
+		
 					
 				}
 				if ($_SESSION['count3'] > 0) {
