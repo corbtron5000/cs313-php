@@ -1,5 +1,13 @@
 <?php
 	session_start();
+
+	$street = $_POST['address'];
+	$zip = $_POST['zip'];
+	$state = $_POST['state'];
+
+	$_SESSION['street'] = $street;
+	$_SESSION['zips'] = $zip;
+	$_SESSION['states'] = $state;
 ?>
 <!DOCTYPE html>
 <html>

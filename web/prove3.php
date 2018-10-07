@@ -15,6 +15,9 @@
 		$_SESSION["count7"] = 0;
 		$_SESSION["cart"] = 0;
 		$_SESSION["total"] = 0;
+		$_SESSION["street"] = "";
+		$_SESSION["zips"] = "";
+		$_SESSION["states"] = "";
 	}
 ?>
 <!DOCTYPE html>
