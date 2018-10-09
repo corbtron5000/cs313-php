@@ -5,10 +5,10 @@
 <html>
 	<script>
 		function verify() {
-			var address = getElementById('address').value;
-			var city = getElementById('city').value;
-			var zip = getElementById('Zip').value;
-			var state = getElementById('state').value;
+			var address = getElementById("address").value;
+			var city = getElementById("city").value;
+			var zip = getElementById("zip").value;
+			var state = getElementById("state").value;
 
 			alert(address);
 			if (address == "" || city == "" || zip == "" || state == "") {
@@ -37,7 +37,7 @@
 		<br><br><br><br><br><br><br><br>
 		<h1>Checkout</h1>
 		<form method="POST", action="confirmation.php" onsubmit="verify()">
-			<label>Address </label><input type="text" name="address" id="address" placeholder="123 Main St."><br>
+			<label>Address </label><input type="text" name="address" id="address" placeholder="123 Main St." value=""><br>
 			<label>City </label><input type="text" name="city" id="city" placeholder="Rexburg"><br>
 			<label>Zip Code </label><input type="text" name="zip" id="zip" placeholder="11111"><br>
 			<label>State </label><input type="text" name="state" id="state" placeholder="CA"><br>
