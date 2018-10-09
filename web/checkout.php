@@ -10,6 +10,7 @@
 			var zip = getElementById('Zip').value;
 			var state = getElementById('state').value;
 
+			alert(address);
 			if (address == "" || city == "" || zip == "" || state == "") {
 				return false;
 			}
