@@ -5,10 +5,10 @@
 <html>
 	<script>
 		function verify() {
-			var address = getElementById("address").value;
-			var city = getElementById("city").value;
-			var zip = getElementById("zip").value;
-			var state = getElementById("state").value;
+			var address = document.getElementById("address").value;
+			var city = document.getElementById("city").value;
+			var zip = document.getElementById("zip").value;
+			var state = document.getElementById("state").value;
 
 			alert(address);
 			if (address == "" || city == "" || zip == "" || state == "") {
