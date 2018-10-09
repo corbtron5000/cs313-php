@@ -10,7 +10,6 @@
 			var zip = document.getElementById("zip").value;
 			var state = document.getElementById("state").value;
 
-			alert(address);
 			if (address == "" || city == "" || zip == "" || state == "") {
 				return false;
 			}
@@ -35,7 +34,8 @@
 
 	<main>
 		<br><br><br><br><br><br><br><br>
-		<h1>Checkout</h1>
+		<h1 id="check">Checkout</h1>
+		<div id="form">
 		<form method="POST", action="confirmation.php" onsubmit="return verify()">
 			<label>Address </label><input type="text" name="address" id="address" placeholder="123 Main St." value=""><br>
 			<label>City </label><input type="text" name="city" id="city" placeholder="Rexburg"><br>
@@ -44,6 +44,7 @@
 			<input type="submit" name="submit" value="place order">
 			<a href="cart.php">Return to cart</a>
 		</form>
+		</div>
 	</main>
 </body>
 </html>
