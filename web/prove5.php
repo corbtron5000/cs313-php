@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>International Spies</title>
+	<link rel="stylesheet" type="text/css" href="prove5.css">
 </head>
 <body>
 	<header>
