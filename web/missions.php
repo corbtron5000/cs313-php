@@ -50,7 +50,7 @@
       			$stmt = $db->prepare('SELECT id, name, image, description, time, location, contact_info FROM spys WHERE id=:id');
       			$stmt->bindValue(':id', $id, PDO::PARAM_INT);
       			$stmt->execute();
-      			$row = $stmt->fetchAll(PDO::FETCH_ASSOC);
+      			$row = $stmt->fetch(PDO::FETCH_ASSOC);
 
       			$name = $row['name'];
      			$image = $row['image'];
