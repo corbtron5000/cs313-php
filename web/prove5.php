@@ -13,5 +13,11 @@
 			<li><a href="assignments.html">Assignments</a></li>
 		</ul>
 	</header>
+	<main>
+		<form>
+			<h1>List of Spys</h1>
+			
+		</form>
+	</main>
 </body>
 </html>
