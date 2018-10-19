@@ -15,7 +15,7 @@ header {
     position: fixed;
 }
 
-li a {
+li a.link {
     
    display: block;
    padding: 16px 16px;
@@ -46,4 +46,5 @@ div.spy {
 
 a.image {
   text-decoration: none;
+  background-color: white;
 }
