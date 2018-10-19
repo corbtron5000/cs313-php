@@ -46,7 +46,7 @@
      	{
     		if(isset($_GET['id'])) 
     		{
-      			$id = test_input($_GET['id']);
+      			$id = getId($_GET['id']);
       			$stmt = $db->prepare('SELECT id, name, image, description, time, location, contact_info FROM spys WHERE id=:id');
       			$stmt->bindValue(':id', $id, PDO::PARAM_INT);
       			$stmt->execute();
