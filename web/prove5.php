@@ -38,7 +38,7 @@
 
 			$stmt = $db->prepare('SELECT id, name, image, description FROM spys');
      		$stmt->execute();
-     		$rows = $stmt->fetch(PDO::FETCH_ASSOC);
+     		$rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
      		foreach ($rows as $row) {
      			$id = $row['id'];
