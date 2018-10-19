@@ -49,3 +49,7 @@ a.image {
   background-color: white;
   color: black;
 }
+
+div.spy:hover {
+  background-color: #F8F8F8;
+}
