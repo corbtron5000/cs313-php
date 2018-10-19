@@ -41,7 +41,7 @@
      		$stmt->execute();
      		$rows = $stmt->fetch(PDO::FETCH_ASSOC);
 
-     		/*foreach ($rows as $row) {
+     		foreach ($rows as $row) {
      			$id = $row['id'];
      			$name = $row['name'];
      			$image = $row['image'];
@@ -54,7 +54,7 @@
      			echo "<p> Description </P>";
      			echo "<p> $description </p>";
      			echo "</div></div>";
-     		}*/
+     		}
 			?>
 		</form>
 	</main>
