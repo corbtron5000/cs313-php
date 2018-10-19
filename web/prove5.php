@@ -46,13 +46,13 @@
      			$image = $row['image'];
      			$description = $row['description'];
 
-     			echo "<div id='spy'>";
+     			echo "<a href='missions.php?id=$id'> <div id='spy'>";
      			echo "<img src='" . "$image' height='200' width='200'>";
      			echo "<div id='text'>";
      			echo "<h3> $name </h3>";
      			echo "<p> Description </p>";
      			echo "<p> $description </p>";
-     			echo "</div></div>";
+     			echo "</div></div></a>";
      		}
 			?>
 		</form>
