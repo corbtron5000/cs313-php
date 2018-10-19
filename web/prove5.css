@@ -32,3 +32,18 @@ li {
 a:hover {
 	background-color: #383838;
 }
+
+div.text {
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.spy {
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+a.image {
+  text-decoration: none;
+}

@@ -16,7 +16,7 @@
 	<main>
 		<br><br><br><br><br><br><br>
 		<form>
-			<h1>List of Spyies</h1>
+			<h1>List of Spies</h1>
 			<?php
 			try {
 				$dbUrl = getenv('DATABASE_URL');
@@ -46,9 +46,9 @@
      			$image = $row['image'];
      			$description = $row['description'];
 
-     			echo "<a href='missions.php?id=$id'> <div id='spy'>";
+     			echo "<a href='missions.php?id=$id' class='image'> <div class='spy'>";
      			echo "<img src='" . "$image' height='200' width='200'>";
-     			echo "<div id='text'>";
+     			echo "<div class='text'>";
      			echo "<h3> $name </h3>";
      			echo "<p> Description </p>";
      			echo "<p> $description </p>";
