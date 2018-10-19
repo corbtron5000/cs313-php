@@ -42,9 +42,29 @@
 			  	die();
 			}
 
-			$stmt = $db->prepare('SELECT id, name, image, description FROM spys');
-     		$stmt->execute();
-     		$rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+     	if($_SERVER['REQUEST_METHOD'] == 'GET')
+     	{
+    		if(isset($_GET['id'])) 
+    		{
+      			$id = test_input($_GET['id']);
+      			$stmt = $db->prepare('SELECT id, name, image, description, time, location, contact_info FROM spys WHERE id=:id');
+      			$stmt->bindValue(':id', $id, PDO::PARAM_INT);
+      			$stmt->execute();
+      			$rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+      			$name = $row['name'];
+     			$image = $row['image'];
+     			$description = $row['description'];
+     			$year = $row['time'];
+     			$location = $row['location'];
+     			$contact = $row['contact_info'];
+
+      			echo "<h1>$name</h1>";
+      			echo "<img src='" . "$image' height='200' width='200'>";
+      			echo "<p><span> Location: </span>$location</p>";
+
+      		}
+      	}
 		?>
 	</main>
 </body>
