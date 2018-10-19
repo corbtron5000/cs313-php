@@ -48,7 +48,7 @@
 
      			echo "<div id='spy'>";
      			echo "<img src='" . "$image' height='200' width='200'>";
-     			echo "<div id='text>";
+     			echo "<div id='text'>";
      			echo "<h3> $name </h3>";
      			echo "<p> Description </p>";
      			echo "<p> $description </p>";
