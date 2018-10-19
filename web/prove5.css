@@ -1,5 +1,5 @@
 ul {
-	background-color: #719CAA;
+	background-color: #505050;
 	list-style-type: none;
 	overflow: hidden;
 	margin-bottom: -20px;
@@ -7,7 +7,7 @@ ul {
 }
 
 header {
-	background-color: #C1ECFA;
+	background-color: #787878;
     padding: 0;
     top: 0;
     left: 0;
@@ -30,5 +30,5 @@ li {
 }
 
 a:hover {
-	background-color: lightgrey;
+	background-color: #383838;
 }
