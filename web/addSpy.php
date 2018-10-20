@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>add spy</title>
+	<link rel="stylesheet" type="text/css" href="spy.css">
+</head>
 </head>
 <body>
 	<header>
@@ -23,7 +25,7 @@
 			<label>Contact Info:</label><input type="text" name="contact" placeholder="Enter Contact">
 			<label>Years of service: </label><input type="text" name="service" placeholder="Enter years">
 			<label>Description: </label><input type="text" name="">
-			<input type="submit" name="submit">
+			<input type="submit" name="submit" value="Add Agent">
 		</form>
 	</main>
 
