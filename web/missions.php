@@ -61,7 +61,10 @@
 
       			echo "<h1>$name</h1>";
       			echo "<img src='" . "$image' height='200' width='200'>";
+      			echo "<p><span> Description: </span>$description</p>";
       			echo "<p><span> Location: </span>$location</p>";
+      			echo "<p><span> Length of Employment: </span>$time</p>";
+      			echo "<p><span> Contact Info: </span>$contact</p>";
 
       		}
       	}
