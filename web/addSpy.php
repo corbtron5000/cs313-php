@@ -16,6 +16,15 @@
 	<main>
 		<br><br><br><br><br><br><br>
 		<h1>Adding New Agent</h1>
+		<form>
+			<label>Name: </label><input type="text" placeholder="Enter Name" name="name">
+			<label>Location: </label><input type="text" name="location" placeholder="Enter Location">
+			<label>Alias: </label><input type="text" name="Alias" placeholder="Enter Alias">
+			<label>Contact Info:</label><input type="text" name="contact" placeholder="Enter Contact">
+			<label>Years of service: </label><input type="text" name="service" placeholder="Enter years">
+			<label>Description: </label><input type="text" name="">
+			<input type="submit" name="submit">
+		</form>
 	</main>
 
 </body>
