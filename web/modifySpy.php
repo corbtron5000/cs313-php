@@ -15,6 +15,18 @@
 	</header>
 	<main>
 		<br><br><br><br><br><br><br>
+		<h1 id="title"> Modifing Agent</h1>
+		<form>
+			<div id="form">
+				<label>Name: </label><input type="text" placeholder="Enter Name" id="name"><br><br>
+				<label>Location: </label><input type="text" name="location" placeholder="Enter Location"><br><br>
+				<label>Alias: </label><input type="text" name="Alias" placeholder="Enter Alias"><br><br>
+				<label>Contact Info:</label><input type="text" name="contact" placeholder="Enter Contact"><br><br>
+				<label>Years of service: </label><input type="text" name="service" placeholder="Enter years"><br><br>
+				<label>Description: </label><input type="text" name=""><br><br>
+				<input type="submit" name="submit" value="Add Agent">
+			</div>
+		</form>
 	</main>
 
 </body>

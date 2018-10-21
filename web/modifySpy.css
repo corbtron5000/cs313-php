@@ -32,3 +32,11 @@ li {
 a:hover {
 	background-color: #383838;
 }
+
+#title {
+  text-align: center;
+}
+
+#form {
+  text-align: center;
+}
