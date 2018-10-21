@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>add spy</title>
-	<link rel="stylesheet" type="text/css" href="spy.css">
+	<link rel="stylesheet" type="text/css" href="addSpy.css">
 </head>
 </head>
 <body>
@@ -20,12 +20,12 @@
 		<h1 id="title">Adding New Agent</h1>
 		<form>
 			<div id="form">
-				<label>Name: </label><input type="text" placeholder="Enter Name" name="name"> <br>
-				<label>Location: </label><input type="text" name="location" placeholder="Enter Location"><br>
-				<label>Alias: </label><input type="text" name="Alias" placeholder="Enter Alias"><br>
-				<label>Contact Info:</label><input type="text" name="contact" placeholder="Enter Contact"><br>
-				<label>Years of service: </label><input type="text" name="service" placeholder="Enter years"><br>
-				<label>Description: </label><input type="text" name=""><br>
+				<label>Name: </label><input type="text" placeholder="Enter Name" name="name"><br><br>
+				<label>Location: </label><input type="text" name="location" placeholder="Enter Location"><br><br>
+				<label>Alias: </label><input type="text" name="Alias" placeholder="Enter Alias"><br><br>
+				<label>Contact Info:</label><input type="text" name="contact" placeholder="Enter Contact"><br><br>
+				<label>Years of service: </label><input type="text" name="service" placeholder="Enter years"><br><br>
+				<label>Description: </label><input type="text" name=""><br><br>
 				<input type="submit" name="submit" value="Add Agent">
 			</div>
 		</form>
