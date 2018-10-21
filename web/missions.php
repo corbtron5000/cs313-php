@@ -48,18 +48,17 @@
     		if(isset($_GET['id'])) 
     		{
       			$id = getId($_GET['id']);
-      			$stmt = $db->prepare('SELECT spys.id, spys.name, spys.image, spy.description, spys.years, spys.location, spys.contact_info, aliases.name FROM spys, aliases ON spys.id = aliases.spy_id WHERE spys.id=:id');
+      			$stmt = $db->prepare('SELECT id, name, image, description, years, location, contact_info, name FROM spys WHERE id=:id');
       			$stmt->bindValue(':id', $id, PDO::PARAM_INT);
       			$stmt->execute();
       			$row = $stmt->fetch(PDO::FETCH_ASSOC);
 
-      			$name = $row['spys.name'];
-     			$image = $row['spys.image'];
-     			$description = $row['spys.description'];
-     			$year = $row['spys.years'];
-     			$location = $row['spys.location'];
-     			$contact = $row['spys.contact_info'];
-     			$aliases = $row['aliases.name'];
+      			$name = $row['name'];
+     			$image = $row['image'];
+     			$description = $row['description'];
+     			$year = $row['years'];
+     			$location = $row['location'];
+     			$contact = $row['contact_info'];
 
       			echo "<h1>$name</h1>";
       			echo "<img src='" . "$image' height='200' width='200'>";
