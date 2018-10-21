@@ -19,12 +19,12 @@
 		<br><br><br><br><br><br><br>
 		<h1>Adding New Agent</h1>
 		<form>
-			<label>Name: </label><input type="text" placeholder="Enter Name" name="name">
-			<label>Location: </label><input type="text" name="location" placeholder="Enter Location">
-			<label>Alias: </label><input type="text" name="Alias" placeholder="Enter Alias">
-			<label>Contact Info:</label><input type="text" name="contact" placeholder="Enter Contact">
-			<label>Years of service: </label><input type="text" name="service" placeholder="Enter years">
-			<label>Description: </label><input type="text" name="">
+			<label>Name: </label><input type="text" placeholder="Enter Name" name="name"> <br>
+			<label>Location: </label><input type="text" name="location" placeholder="Enter Location"><br>
+			<label>Alias: </label><input type="text" name="Alias" placeholder="Enter Alias"><br>
+			<label>Contact Info:</label><input type="text" name="contact" placeholder="Enter Contact"><br>
+			<label>Years of service: </label><input type="text" name="service" placeholder="Enter years"><br>
+			<label>Description: </label><input type="text" name=""><br>
 			<input type="submit" name="submit" value="Add Agent">
 		</form>
 	</main>
