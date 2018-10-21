@@ -15,11 +15,11 @@
 	</header>
 	<main>
 		<br><br><br><br><br><br><br>
-		<h3>Welcome to International Spy Co.</h3>
-		<div>
-			<p id="intro">In this world, you may need a spy, but you can't trust anyone. We make sure that the agents of our company are the best of the best. We do this because when people come looking for a job to get done, they want it done right. If you need get something back, stop assissnation, or even to do surveillance we have the spy for the job. No matter how hard the job might be our spies will make sure that it gets done right.</p>
-			<img src="spy.png" id="introspy">
+		<div id="intro">
+			<h3>Welcome to International Spy Co.</h3>
+			<p>In this world, you may need a spy, but you can't trust anyone. We make sure that the agents of our company are the best of the best. We do this because when people come looking for a job to get done, they want it done right. If you need get something back, stop assissnation, or even to do surveillance we have the spy for the job. No matter how hard the job might be our spies will make sure that it gets done right.</p>
 		</div>
+		<img src="spy.png" id="introspy">
 		<form>
 			<h1>List of Spies</h1>
 			<?php
