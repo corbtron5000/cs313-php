@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Modify Spy</title>
+	<link rel="stylesheet" type="text/css" href="modifySpy.css">
 </head>
 <body>
 	<header>
