@@ -53,3 +53,8 @@ a.image {
 div.spy:hover {
   background-color: #F8F8F8;
 }
+
+#intro {
+  width: 500px;
+  
+}
