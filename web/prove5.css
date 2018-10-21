@@ -41,6 +41,7 @@ div.text {
 div.spy {
   display: inline-block;
   vertical-align: top;
+  padding: 15px;
 
 }
 
@@ -55,7 +56,7 @@ div.spy:hover {
 }
 
 #intro {
-  width: 500px;
+  width: 750px;
   display: inline-block;
   vertical-align: top;
 
