@@ -66,6 +66,7 @@
       			echo "<p><span> Location: </span>$location</p>";
       			echo "<p><span> Length of Employment: </span>$year</p>";
       			echo "<p><span> Contact Info: </span>$contact</p>";
+      			echo "<a href='modifySpy.php?id=id'><span>Make Modifications</span>";
 
       		}
       	}
