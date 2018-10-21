@@ -60,3 +60,7 @@ div.spy:hover {
   vertical-align: top;
 
 }
+
+#image {
+  float: left;
+}
