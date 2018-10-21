@@ -48,7 +48,7 @@
     		if(isset($_GET['id'])) 
     		{
       			$id = getId($_GET['id']);
-      			$stmt = $db->prepare('SELECT id, spys.name, image, description, years, location, contact_info, aliases.name FROM spys INNER JOIN aliases ON spys.id = aliases.spy_id WHERE id=:id');
+      			$stmt = $db->prepare('SELECT id, spys.name, image, description, years, location, contact_info, aliases.name FROM spys LEFT JOIN aliases ON spys.id = aliases.spy_id WHERE id=:id');
       			$stmt->bindValue(':id', $id, PDO::PARAM_INT);
       			$stmt->execute();
       			$row = $stmt->fetch(PDO::FETCH_ASSOC);
