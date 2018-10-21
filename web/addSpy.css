@@ -33,6 +33,10 @@ a:hover {
 	background-color: #383838;
 }
 
-form {
+#title {
   text-align: center;
+}
+
+#form {
+  align-items: center;
 }
