@@ -51,8 +51,7 @@
      			echo "<img src='" . "$image' height='200' width='200'>";
      			echo "<div class='text'>";
      			echo "<a href='missions.php?id=$id' class='image'> <h3> $name </h3>";
-     			echo "<p> Description </p>";
-     			echo "<p> $description </p></a>";
+     			echo "</a>";
      			echo "</div></div>";
      		}
 			?>
